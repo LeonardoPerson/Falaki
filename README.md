@@ -9,3 +9,5 @@ Após clicar no botão "Entrar", o usuário é direcionado para a tela de login:
 <img src="src/image/tela_login.png"/><br/><br/>
 Ao acessar a opção "Criar Conta", o usuário deverá criar seu acesso pela tela a seguir:<br/><br/>
 <img src="src/image/criarUser.png"/><br/><br/>
+O campo para comentar só fica disponível após fazer login: <br/><br/>
+<img src="src/image/comentar.png"/>
