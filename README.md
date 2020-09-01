@@ -13,4 +13,4 @@ O campo para comentar só fica disponível após fazer login: <br/><br/>
 <img src="src/image/comentar.png"/>
 
 Segue a versão responsiva da aplicação:<br/><br/>
-<img src="src/image/responsivo.png"/>
+<img src="src/image/responsivo.png" width="50%"/>
