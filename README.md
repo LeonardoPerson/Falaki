@@ -5,7 +5,7 @@ O Firebase foi utilizado como backend da aplicação, auxiliando com o sistema d
 O projeto pode ser acessado pelo link a seguir: https://comentakiprojeto.web.app/.<br/>
 Para acesso no modo de desenvolvimento, execute npm start no diretório raiz do projeto.<br/>
 Temos abaixo a tela inicial do sistema: <br/><br/>
-<img src="src/image/home.png" width="70%"/><br/><br/>
+<img src="src/image/home.png" width="80%"/><br/><br/>
 
 Após clicar no botão "Entrar", o usuário é direcionado para a tela de login: <br/><br/>
 <img src="src/image/tela_login.png" width="80%"/><br/><br/>
