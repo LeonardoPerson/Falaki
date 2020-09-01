@@ -11,3 +11,6 @@ Ao acessar a opção "Criar Conta", o usuário deverá criar seu acesso pela tel
 <img src="src/image/criarUser.png"/><br/><br/>
 O campo para comentar só fica disponível após fazer login: <br/><br/>
 <img src="src/image/comentar.png"/>
+
+Segue a versão responsiva da aplicação:<br/><br/>
+<img src="src/image/responsivo.png"/>
