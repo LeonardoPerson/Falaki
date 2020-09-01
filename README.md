@@ -4,4 +4,6 @@ O Firebase foi utilizado como backend da aplicação, auxiliando com o sistema d
 
 O projeto pode ser acessado pelo link a seguir: https://comentakiprojeto.web.app/.<br/>
 Temos abaixo a tela inicial do sistema: <br/><br/>
-<img src="src/image/home.png"/>
+<img src="src/image/home.png"/><br/><br/>
+Após clicar no botão "Entrar", o usuário é direcionado para a tela de login: <br/><br/>
+<img src="src/image/tela_login.png"/>
