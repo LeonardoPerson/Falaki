@@ -17,4 +17,5 @@ O campo para comentar só fica disponível após fazer login: <br/><br/>
 <img src="src/image/comentar.png" width="80%"/>
 
 Segue a versão responsiva da aplicação:<br/><br/>
-<img src="src/image/responsivo.png" width="40%"/>
+<img src="src/image/responsivo.png" width="40%"/><br/><br/>
+Esse sistema serve de base para aplicações de conversa mais complexas como whatsapp, facebook, instagram, etc.
