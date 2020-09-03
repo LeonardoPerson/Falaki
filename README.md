@@ -18,4 +18,4 @@ O campo para comentar só fica disponível após fazer login: <br/><br/>
 
 Segue a versão responsiva da aplicação:<br/><br/>
 <img src="src/image/responsivo.png" width="40%"/><br/><br/>
-Esse sistema serve de base para aplicações de conversa mais complexas como whatsapp, facebook, instagram, etc.
+Esse sistema serve de base para aplicações de conversa mais complexas como whatsapp, facebook, instagram, etc.<br/>
