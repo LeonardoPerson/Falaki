@@ -1,5 +1,6 @@
-Este projeto é um sistema básico de comentários tendo como principais tecnologias ReactJs com hooks e NodeJs. <br/>
-Este projeto utiliza o hook useContext para compartilhamento de dados de login do usuário entre as páginas acessadas. <br/>
+Este projeto é um sistema de comentários que pode servir de widget para aplicações diversas. Tem como principais tecnologias ReactJs com hooks e NodeJs. <br/>
+Este projeto tem como destaque a utilização do hook useContext para compartilhamento de dados de login do usuário entre os componentes. <br/>
+Dessa forma é possível que cada comentário tenha a identificação de cada usuário.<br/>
 O Firebase foi utilizado como backend da aplicação, auxiliando com o sistema de login e armazenamento de comentários. <br/>
 
 O projeto pode ser acessado pelo link a seguir: https://comentakiprojeto.web.app/.<br/>
