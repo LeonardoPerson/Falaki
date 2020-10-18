@@ -1,10 +1,12 @@
-import React from 'react'
-import {useDatabase} from './database'
+import React, { useContext, useState } from 'react'
+import {useDatabase, useDatabaseActions} from './database'
 import Comment from './Comment'
+import { AuthContext } from './auth'
 
 const Comments = () => {  
-    //const auth = useContext(AuthContext)
-    const data = useDatabase('comments')    
+    const auth = useContext(AuthContext)
+    const data = useDatabase('comments')  
+    const [status, save, exclude] = useDatabaseActions('comments') 
      
     //--------------------------------------------------------
     if(!data){
@@ -16,18 +18,20 @@ const Comments = () => {
     //--------------------------------------------------------
     if(ids.length === 0){
       return <p className='carregando'>Carregando . . .</p>
-    }
+    }  
     
     //--------------------------------------------------------
       return ids.map(id => {     
         return (         
           <div className='main-comments' key={id}>
-            <Comment key={id} comment={data[id].data}  />   
+            <Comment key={id} comment={data[id].data} />          
             
-            {/*auth.user && 
-              <button onClick={() => excluir(id)}>Excluir</button>
-            */}   
+            {
+              
+              auth.user && auth.user.uid === data[id].data.user.id &&
+              <button onClick={() => exclude(id)} className='botao-excluir'>EXCLUIR</button>              
             
+            }       
           </div>      
         )        
       })

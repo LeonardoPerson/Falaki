@@ -1,10 +1,10 @@
-import React, {useState, useContext} from 'react';
-import {useDatabasePush} from './database';
+import React, {useState, useContext} from 'react'
+import {useDatabaseActions} from './database'
 import firebase from './firebase'
-import { AuthContext } from './auth';
+import { AuthContext } from './auth'
 
 const NewComment = () => {
-    const [, save] = useDatabasePush('comments')
+    const [, save] = useDatabaseActions('comments')
     const [comment, setComment] = useState('')
     const auth = useContext(AuthContext)
     

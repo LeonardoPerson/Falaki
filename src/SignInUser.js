@@ -29,8 +29,10 @@ const SignInUser = () => {
             */}
             
             <Link to='/'>
-                <button onClick={() => {auth.signInUser.signInUser(form.email, form.passwd
-                                        )}} className='botao-confirmarLogin'>ENTRAR
+                <button onClick={() => {auth.signInUser.signInUser(form.email, form.passwd)}} 
+                        className='botao-confirmarLogin'>
+                        {console.log(auth.user)}
+                        ENTRAR
                 </button>
             </Link>         
             

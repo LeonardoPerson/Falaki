@@ -236,9 +236,23 @@ body {
   cursor: pointer;
 }
 
+.botao-excluir{
+  align-self: center;  
+  font-size: 1rem;
+  width: fit-content;
+  text-decoration: none;
+  color: white;
+  padding: 1.5rem;
+  margin: .5rem;
+  background-color: rgb(45, 167, 154);
+  border-radius: 3px;
+  border-style: none;
+}
+
 .main-comments{
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
   background-color: rgb(189, 211, 211);
   padding: 1rem;
   margin: 1rem;

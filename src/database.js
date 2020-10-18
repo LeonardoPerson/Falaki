@@ -7,8 +7,7 @@ export const useDatabase = (endpoint) => {
     //-------------------------------------------
     useEffect(() => {
       const ref = firebase.database().ref(endpoint)
-        ref.on('value', snapshot => {
-          
+        ref.on('value', snapshot => {          
           setData(snapshot.val())
         })
       return () => {
@@ -20,7 +19,7 @@ export const useDatabase = (endpoint) => {
   }
 
 /////////////////////////////////////////////////////////////////////////
-  export const useDatabasePush = (endpoint) => {
+  export const useDatabaseActions = (endpoint) => {
     const [status, setStatus] = useState('')
   
     const save = (data) => {
@@ -33,8 +32,14 @@ export const useDatabase = (endpoint) => {
         }
       })
     }
+
+    const exclude = (key) => {
+      const ref = firebase.database().ref(endpoint)
+      console.log(ref)
+      ref.child(key).remove()
+    }
   
-    return [status, save]
+    return [status, save, exclude]
   }
 
  
