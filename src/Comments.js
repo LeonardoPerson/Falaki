@@ -1,4 +1,4 @@
-import React, { useContext, useState } from 'react'
+import React, { useContext } from 'react'
 import {useDatabase, useDatabaseActions} from './database'
 import Comment from './Comment'
 import { AuthContext } from './auth'
@@ -26,11 +26,9 @@ const Comments = () => {
           <div className='main-comments' key={id}>
             <Comment key={id} comment={data[id].data} />          
             
-            {
-              
+            {              
               auth.user && auth.user.uid === data[id].data.user.id &&
-              <button onClick={() => exclude(id)} className='botao-excluir'>EXCLUIR</button>              
-            
+              <button onClick={() => exclude(id)} className='botao-excluir'>EXCLUIR</button>            
             }       
           </div>      
         )        
